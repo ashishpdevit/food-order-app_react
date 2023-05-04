@@ -1,0 +1,28 @@
+{
+  "consumerData": {
+    "-NU5appD4gZQD7Y6RXP4": {
+      "bill": 5,
+      "order": [
+        {
+          "amount": 1,
+          "id": "m1",
+          "name": "ice cream",
+          "price": 5
+        }
+      ],
+      "user": {
+        "address": "asdasd",
+        "city": "asd",
+        "name": "sd",
+        "pincode": "382470"
+      }
+    }
+  },
+  "meals": {
+    "m1": {
+      "description": "test",
+      "name": "ice cream",
+      "price": 5
+    }
+  }
+}

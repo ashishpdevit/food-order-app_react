@@ -10,7 +10,14 @@
   margin: 0;
   padding: 0;
 }
-
+img.center {
+  display: block;
+  margin: 0 auto;
+}
+.error {
+  text-align: center;
+  color: red;
+}
 @keyframes meals-appear {
   from {
     opacity: 0;
