@@ -53,7 +53,7 @@ const Cart = (props) => {
   const submitOrderHandler = async (consumerData) => {
     setIsOrdering(true);
     await fetch(
-      "https://food-app-c10a5-default-rtdb.firebaseio.com/consumerData.json",
+      `${process.env.REACT_APP_API_URL}consumerData.json`,
       {
         method: "POST",
         headers: { "Content-type": "application/json" },

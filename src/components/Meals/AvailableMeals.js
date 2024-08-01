@@ -41,7 +41,8 @@ const AvailableMeals = (props) => {
       setIsLoading(true);
       const response = await fetch(
         // "https://react-http-demo-a7ed8-default-rtdb.firebaseio.com/meals.json"
-        "https://food-app-c10a5-default-rtdb.firebaseio.com/meals.json"
+        // "https://food-app-c10a5-default-rtdb.firebaseio.com/meals.json"
+        `${process.env.REACT_APP_API_URL}/meals.json`
       );
 
       if (!response.ok) {
